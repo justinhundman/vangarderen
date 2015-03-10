@@ -1,0 +1,149 @@
+// *************************************
+//
+// Header
+// -> Main site header
+//
+// *************************************
+
+.Header {
+  background-color: $c-purple;
+  background-size: cover;
+  h1{
+    color:white;
+    font-weight:bold;
+    font-size: 36px;
+    margin-bottom: -35px;
+  }
+  h2{
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+  a{
+    text-decoration: none;
+  }
+}
+.Slider-purple {
+  visibility: hidden;
+}
+.phone {
+  float: right;
+  color: #1b3538;
+  text-decoration: none;
+  margin-top: -29px;
+}
+
+.logo-right {
+  background-image: url('../img/logo.png');
+  background-position:  179px 1px;
+  background-repeat: no-repeat;
+  height: 102px;
+  margin-top: 36px;
+}
+
+.navigatiebalk {
+  margin-bottom: 20px;
+}
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// -variable
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// .Module--modifierName
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+// .is-module-state
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- Contact bar ----- //
+
+.Header-contact {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: rgba($c-black,0.5);
+}
+
+// ----- Contact bar ----- //
+
+.Header-logo {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: rgba($c-black,0.25);
+}
+
+// ----- Nav bar ----- //
+
+.Header-nav {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: $c-blue;
+}
+
+// ----- Carousel ----- //
+
+.Header-carousel {
+  @extend .u-gridRow;
+  padding-bottom : ($l-whiteSpace * 4);
+  padding-top    : ($l-whiteSpace * 4);
+}
+
+.Slider {
+	visibility: hidden;
+}
+
+.phone-position {
+  margin-top: 12px;
+}
+
+.phone-pos {
+  margin-left: 193px;
+  margin-bottom: 4px;
+
+}
+
+@media all and (max-width: 1040px) {
+  .verdwijn{
+    display:none;
+  }
+  .Slider-purple{
+    display: none;
+  }
+  .textscale h1{
+    font-size: 20px;
+  }
+  .textscale h2{
+     h2{
+     font-size: 18px;
+  }
+  }
+} 
+
+@media all and (max-width: 638px) {
+  .verdwijnlogo{
+    display:none;
+  }
+  .textscale{
+    font-size: 50%;
+  }
+} 

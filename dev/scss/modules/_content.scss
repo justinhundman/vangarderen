@@ -1,0 +1,110 @@
+.Content {
+ 	background-color: #ffffff;
+ 	border-radius:10px;
+ 	padding: 20px;
+ 	margin-bottom: 20px;
+ 	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+ 	h1 {
+ 	margin-top: 0px;
+ 	margin-bottom: 10px;
+ 	font-size: 30px;
+ 	font-weight: lighter;
+ 	}
+}
+
+.contentdiensten{
+	min-height: 735px;
+}
+
+.Contentgray {
+ 	background-color: #3b3538;
+ 	border-radius:10px;
+ 	color: #ffffff;
+ 	padding: 20px;
+ 	margin-bottom: 20px;
+ 	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+ 	height: 363px;
+ 	h2 {
+ 		margin-top: 0px;
+ 		margin-bottom: 10px;
+ 		font-size: 24px;
+ 	}
+ 	a{
+ 		color: white;
+ 	}
+}
+
+.adresgegevens{
+	height: 363px;
+}
+
+.Slider-purple {
+	background-image: url('../img/Slider-content.png');
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+  	border-radius: 10px;
+  	h2{
+  		font-size: 20px;
+  	}
+  }
+
+.gform_wrapper .top_label .gfield_label {
+    margin: 10px 0px 4px;
+    display: inline-block;
+    font-weight: none !important;
+    line-height: 1.3em;
+    clear: both;
+}
+
+.Content-entry{
+	h2{
+		background-color: $c-purple;
+		color: #ffffff;
+		padding-left: 10px;
+		margin-top: 0px;
+	}
+}
+
+.medium{
+	color: black;
+}
+
+.adress-map {
+		margin-bottom: 10px;
+}
+
+.accordion {
+	a{
+		text-decoration: none;
+	}
+	h2 {
+		font-size: 19px; 
+		background: #40142a;
+	}
+}
+
+.diensten_home{
+	a{
+		text-decoration: none;
+		color: white;
+	}
+	p{
+		font-size: 18px;
+	}
+}
+
+#gform_submit_button_2{
+	  float: right;
+	  margin-top: -48px;
+	  margin-right: 6px;
+}
+
+#input_2_6{
+	height: 117px;
+}
+
+.gform_wrapper .gfield_required {
+  color: white !important;
+  margin-left: 4px;
+}

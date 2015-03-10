@@ -1,0 +1,30 @@
+.Footer {
+}
+
+// RESPONSIVE FOOTER
+.Footer-inner .widget {
+	@include span-columns(4);
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
+}
+
+.Footer-inner {
+}
+
+//style the widgets
+.Footer-inner .widget {
+
+}
+
+.Socket {
+	background-color: $c-purple;
+	text-align: center;
+	color: #ffffff;
+	font-size: 50%;
+	font-weight: lighter;
+}
+
+.link {
+	color:#ffffff;
+}
