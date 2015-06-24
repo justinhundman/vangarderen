@@ -28,6 +28,7 @@ Template Name: Contactpage
 							<p class="contact-page-p">Heeft u nog vragen? Neem dan hieronder contact met ons op. </p>
 							<?php the_content(); ?>
 						</div>
+						[gravityform id="1" title="true" description="true"]
 						<div class="adress u-gridCol4">
 							<div class="adress-info">
 								<p><b>D. van Garderen BV</b></p>

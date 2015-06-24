@@ -100,8 +100,7 @@
 
 	//  This is the wrapper for the navigation
 	.Nav-wrap {
-		height: auto;
-		min-height: 60px; // <-- adjust to height of div
+		height: 110px; // <-- adjust to height of div
 	}
 
 	.Navigation-menuToggle  {
@@ -243,6 +242,10 @@
 @media all and (min-width: 1040px) {  
   #js-navCollapse {
     display: none;
+  }
+
+  .Navigation-wrap {
+  	height: 80px;
   }
 
 }

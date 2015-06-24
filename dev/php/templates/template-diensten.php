@@ -72,7 +72,7 @@ Template Name: Diensten
 								<li>&bull;&nbsp;&nbsp;Loonstroken voor uw personeel</li>
 								<li>&bull;&nbsp;&nbsp;Aangiften loonheffing</li>
 								<li>&bull;&nbsp;&nbsp;Aanmelden werknemers bij de belastingdienst</li>
-								<li>&bull;&nbsp;&nbsp;Jaarloonopgaven</li>
+								<li>&bull;&nbsp;&nbsp;Jaarloonopgaven</li> 
 							</ul>
 						</p>
 					</div>
